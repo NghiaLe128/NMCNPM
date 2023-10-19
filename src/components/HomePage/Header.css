@@ -1,0 +1,46 @@
+/* YourHeader.css */
+.logo {
+    width: 50px; /* Điều chỉnh kích thước hình ảnh theo ý muốn */
+    height: auto; /* Đảm bảo tỷ lệ khung hình bảo toàn */
+  }
+
+.store-name{
+    padding: 10px 15px;
+    color: #ffff;
+    margin-top: 15px;
+}
+
+.custom-input-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .custom-input {
+    flex: 1;
+    margin-right: 0; /* Loại bỏ margin phải để giữ kích thước */
+  }
+  
+  .custom-input-addon {
+    border: none; /* Loại bỏ viền */
+    color: #007BFF; /* Đổi màu biểu tượng tìm kiếm */
+    cursor: pointer; /* Biểu tượng chuột là con trỏ khi di chuột qua nút */
+  }  
+  
+
+  .custom-badge {
+    top: 20%;
+    left: 60%;
+    transform: translate(0%, -30%);
+  }
+
+.breadcrumb-item{
+    color: white;
+}
+
+.breadcrumb-item:hover {
+    color: red; 
+    text-decoration: underline; 
+  }
+  
+  
+  
