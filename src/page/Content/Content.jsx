@@ -8,14 +8,15 @@ import TagField from "./TagField/TagField";
 import BestSeller from "./BestSeller/BestSeller";
 
 function Content() {
+  const isLoading = true
   return (
     <>
-        <Slider/>
-        <CardField/>
-        <TagField/>
-        <BestSeller/>
-        <CardField/>
-        <CardField/>
+        <Slider IsLoading = {isLoading} value = {['','','','','','']}/>
+        <CardField IsLoading = {isLoading} value = {['','','','','','','','']}/>
+        <TagField IsLoading = {isLoading} value = {['','','','','','']}/>
+        <BestSeller IsLoading = {isLoading} value = {['','','','','','','','','','']}/>
+        <CardField IsLoading = {isLoading} value = {['','','','']}/>
+        <CardField IsLoading = {isLoading} value = {['','','','','','']}/>
     </>
   );
 }

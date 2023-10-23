@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-function Card() {
+function Card(progs) {
   return (
     <div style={{
         width: '100%',
